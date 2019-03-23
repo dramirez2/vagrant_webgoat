@@ -58,7 +58,7 @@ Note that by default the BurpSuite proxy is configured to run in intercept mode,
 
 To disable this, go to the Proxy tab, then click the Intercept tab and click on the `Intercept is on` button to turn it off, as shown below:
 
-<img src="SCREENSHOTS/5.png" align="center" height="75%" width="75%">
+<img src="SCREENSHOTS/2.png" align="center" height="75%" width="75%">
 
 For some exercises you want to enable the intercept mode, to enable it follow the previous steps.
 
