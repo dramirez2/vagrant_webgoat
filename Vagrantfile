@@ -19,7 +19,7 @@ Vagrant.configure(2) do |config|
     wget https://github.com/WebGoat/WebGoat-Legacy/releases/download/v6.0.1/WebGoat-6.0.1-war-exec.jar
     wget --output-document BurpSuite.jar https://portswigger.net/burp/releases/download?product=community&version=1.7.36&type=jar
 
-    mv WebGoat-6.0.1-war-exec.jar BurpSuite.jar /home/vagrant/Downloads/.
+    mv *.jar /home/vagrant/Downloads/
     
     sudo add-apt-repository ppa:openjdk-r/ppa
     sudo apt-get update
