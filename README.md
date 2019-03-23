@@ -87,8 +87,9 @@ When prompted to login, use one of the accounts provided in the login page:
 
 The exercise categories categories will be contained in the vertical pane to the left:
 
-![5]
+<img src="SCREENSHOTS/5.png" align="center" height="50%" width="50%">
 
+  
 ### Individual view of exercises
 
 Some exercises depend on messages being rendered to exploit a vulnerability, such as the Cross-Site Scripting vulnerabilities. 
@@ -97,7 +98,7 @@ In the event that you are using the correct input to exploit a vulnerability but
 
 First, look for the `Screen` and `menu` parameters that correspond to the exercise you are working on. The following is an example of the parameters for the CSRF Token By-Pass exercise:
 
-![6]
+<img src="SCREENSHOTS/6.png" align="center" height="50%" width="50%">
 
 Then, open up a new tab and enter the following URL, replacing the appropriate values for each parameter:
 	
@@ -109,12 +110,11 @@ The exercise would look like the following:
 
 Now you have the environment setup and can start practicing your web application pentesting skills!
 
+
 <!-- References to images -->
 
 [1]: SCREENSHOTS/1.png
 [2]: SCREENSHOTS/2.png
 [3]: SCREENSHOTS/3.png
 [4]: SCREENSHOTS/4.png
-[5]: SCREENSHOTS/5.png
-[6]: SCREENSHOTS/6.png
 [7]: SCREENSHOTS/7.png
