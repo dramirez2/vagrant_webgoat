@@ -8,7 +8,7 @@ Vagrant.configure(2) do |config|
   config.vm.network :forwarded_port, guest: 8080, host: 8080
 
   config.vm.provider "virtualbox" do |vb|
-    vb.gui = false
+    vb.gui = true
     vb.memory = "3072"
     vb.cpus = 1
     vb.name = "WebGoat-Training"
