@@ -1,9 +1,11 @@
 # Vagrant and Legacy WebGoat Environment Setup
 
 Vagrant is a powerful tool that allows you to create and configure virtual machines (VMs).
-With Vagrant you can create VMs based on a configuration file, called the Vagrantfile. You can specify what type of operating system to use with a single line of code, access by what are called boxes.  
+With Vagrant you can create VMs based on a configuration file, called the Vagrantfile. 
 
 WebGoat is vulnerable web application maintained by OWASP, with the purpose of teaching how to get started with Web Application Pentesting. The Vagrantfile contained in this repo sets up the legacy version of WebGoat, which is version 6.0.1. To get the latest versions, you can fetch the Vagrantfile maintained by them [here](https://github.com/WebGoat/WebGoat/tree/develop/webgoat-images/vagrant-training).
+
+This readme shows you how to run the legacy version of WebGoat in an Ubuntu VM using the Vagrantfile that is included in this repo.
 
 ## Requirements
 Vagrant needs a virtualization provider. In this document we will be using VirtualBox, however you can use other providers. Thus, you need to have VirtualBox installed or any of the supported providers (additional details found [here](https://www.vagrantup.com/docs/providers/)).
