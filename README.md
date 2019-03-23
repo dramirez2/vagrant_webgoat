@@ -75,7 +75,7 @@ This makes the web browser route HTTP traffic to localhost on port 8080, which i
 
 Now that the BurpSuite proxy is running and the web browser is configured to route traffic through it, go back to the command line and run the following command to start the WebGoat app as a background process:
 
-	java -jar WebGoat-6.0.1-war-exec.jar --httpPort 8083 2>1 /dev/null
+	java -jar WebGoat-6.0.1-war-exec.jar --httpPort 8083 2>1 /dev/null &
 	
 Note that the WebGoat is running on port 8083.
 
