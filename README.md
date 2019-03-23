@@ -32,7 +32,7 @@ Next, migrate to the `vagrant_webgoat` directory and  spin up the environment in
 	
 When the command is finished executing, it should look like the following:
 
-![1]
+<img src="SCREENSHOTS/1.png" align="center" height="75%" width="75%">
 
 Once the vagrant command has finished running the provisioning script, you may log in to the VM by clicking on the virtualbox gui window of the VM. The username of the VM is `vagrant` and the password is `vagrant`.
 
@@ -58,7 +58,7 @@ Note that by default the BurpSuite proxy is configured to run in intercept mode,
 
 To disable this, go to the Proxy tab, then click the Intercept tab and click on the `Intercept is on` button to turn it off, as shown below:
 
-![2]
+<img src="SCREENSHOTS/5.png" align="center" height="75%" width="75%">
 
 For some exercises you want to enable the intercept mode, to enable it follow the previous steps.
 
@@ -66,7 +66,7 @@ Next, open the firefox browser and click on the Preferences tab. Then, scroll to
 
 Ensure the proxy settings is configured as shown below:
 
-![3]
+<img src="SCREENSHOTS/3.png" align="center" height="75%" width="75%">
 
 This makes the web browser route HTTP traffic to localhost on port 8080, which is the default port BurpSuite uses to listen for connections.
 
@@ -83,11 +83,11 @@ After waiting for a few seconds for the app to initialize, open up the web brows
 
 When prompted to login, use one of the accounts provided in the login page:
 
-![4]
+<img src="SCREENSHOTS/4.png" align="center" height="50%" width="50%">
 
 The exercise categories categories will be contained in the vertical pane to the left:
 
-<img src="SCREENSHOTS/5.png" align="center" height="50%" width="50%">
+<img src="SCREENSHOTS/5.png" align="center" height="40%" width="40%">
 
   
 ### Individual view of exercises
@@ -98,7 +98,7 @@ In the event that you are using the correct input to exploit a vulnerability but
 
 First, look for the `Screen` and `menu` parameters that correspond to the exercise you are working on. The following is an example of the parameters for the CSRF Token By-Pass exercise:
 
-<img src="SCREENSHOTS/6.png" align="center" height="50%" width="50%">
+<img src="SCREENSHOTS/6.png" align="center" height="40%" width="40%">
 
 Then, open up a new tab and enter the following URL, replacing the appropriate values for each parameter:
 	
@@ -106,15 +106,6 @@ Then, open up a new tab and enter the following URL, replacing the appropriate v
 
 The exercise would look like the following:
 
-![7]
+<img src="SCREENSHOTS/7.png" align="center" height="80%" width="80%">
 
 Now you have the environment setup and can start practicing your web application pentesting skills!
-
-
-<!-- References to images -->
-
-[1]: SCREENSHOTS/1.png
-[2]: SCREENSHOTS/2.png
-[3]: SCREENSHOTS/3.png
-[4]: SCREENSHOTS/4.png
-[7]: SCREENSHOTS/7.png
